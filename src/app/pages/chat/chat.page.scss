@@ -1,0 +1,38 @@
+.message-input {
+    width: 100%;
+    border: 1px solid var(--ion-color-medium);
+    border-radius: 6px;
+    background: #fff;
+    resize: none;
+    margin-top: 0px;
+    --padding-start: 8px;
+}
+
+.message {
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px 0;
+    max-width: 75%;
+    word-wrap: break-word;
+  }
+  
+  .my-message {
+    background-color: #2fd9f7; /* Azul para mensajes propios */
+    color: black;
+    text-align: right;
+    margin-left: auto;
+  }
+  
+  .other-message {
+    background-color: #e5e5ea; /* Gris para mensajes de otros */
+    color: black;
+    text-align: left;
+    margin-right: auto;
+  }
+  
+  .time {
+    font-size: 0.75rem;
+    color: #888;
+    margin-top: 5px;
+  }
+  
